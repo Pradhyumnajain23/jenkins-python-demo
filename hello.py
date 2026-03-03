@@ -2,7 +2,7 @@ import platform
 import sys
 import datetime
 
-def system_info():
+#def system_info():
     print("=== Jenkins Python Build ===")
     print(f"Python Version : {sys.version}")
     print(f"Platform       : {platform.system()} {platform.release()}")
